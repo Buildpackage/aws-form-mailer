@@ -9,3 +9,5 @@ use rocket_dyn_templates::Template;
 
 mod models;
 use models::stock_model::*;
+
+static_response_handler! {
