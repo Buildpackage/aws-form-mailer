@@ -13,3 +13,6 @@ use models::stock_model::*;
 static_response_handler! {
     "/favicon.png" => favicon => "favicon"
 }
+
+#[get("/")]
+fn home() -> Template {
