@@ -16,3 +16,4 @@ static_response_handler! {
 
 #[get("/")]
 fn home() -> Template {
+    let context: HashMap<&str, &str> = HashMap::new();
