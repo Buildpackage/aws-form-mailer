@@ -20,3 +20,6 @@ fn home() -> Template {
 
     Template::render("home", context)
 }
+
+#[get("/latest")]
+async fn latest() -> Template {
