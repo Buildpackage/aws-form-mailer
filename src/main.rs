@@ -23,3 +23,6 @@ fn home() -> Template {
 
 #[get("/latest")]
 async fn latest() -> Template {
+
+    let coca: StockInfo = Stock::new("phm.bmex".to_string()).await.unwrap();
+    let aapl: StockInfo = Stock::new("AAPL".to_string()).await.unwrap();
