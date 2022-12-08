@@ -29,3 +29,5 @@ async fn latest() -> Template {
     let fb: StockInfo = Stock::new("FB".to_string()).await.unwrap();
     
     let mut context: HashMap<String, StockInfo> = HashMap::new();
+    context.insert("stock1".to_string(), aapl);
+    context.insert("stock2".to_string(), coca);
