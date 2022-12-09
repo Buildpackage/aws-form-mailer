@@ -32,3 +32,5 @@ async fn latest() -> Template {
     context.insert("stock1".to_string(), aapl);
     context.insert("stock2".to_string(), coca);
     context.insert("stock3".to_string(), fb);
+
+    let mut vec: HashMap<String, HashMap<String, StockInfo>> = HashMap::new();
