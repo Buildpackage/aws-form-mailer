@@ -36,3 +36,4 @@ async fn latest() -> Template {
     let mut vec: HashMap<String, HashMap<String, StockInfo>> = HashMap::new();
 
     vec.insert(format!("stocks"), context);
+    
