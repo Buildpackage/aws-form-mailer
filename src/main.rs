@@ -38,3 +38,5 @@ async fn latest() -> Template {
     vec.insert(format!("stocks"), context);
     
     Template::render("stock", &vec)
+
+}   
