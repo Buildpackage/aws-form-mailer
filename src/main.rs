@@ -40,3 +40,6 @@ async fn latest() -> Template {
     Template::render("stock", &vec)
 
 }   
+
+#[launch]
+fn rocket() -> _ {
