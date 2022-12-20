@@ -45,3 +45,5 @@ async fn latest() -> Template {
 fn rocket() -> _ {
     
     rocket::build()
+        .attach(static_resources_initializer!(
+            "favicon" => "static/favicon.png",
