@@ -43,3 +43,5 @@ async fn latest() -> Template {
 
 #[launch]
 fn rocket() -> _ {
+    
+    rocket::build()
