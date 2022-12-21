@@ -50,3 +50,5 @@ fn rocket() -> _ {
         ))
         .attach(Template::fairing())
         .mount("/", routes![home, latest, favicon])
+
+}
