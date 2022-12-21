@@ -49,3 +49,4 @@ fn rocket() -> _ {
             "favicon" => "static/favicon.png",
         ))
         .attach(Template::fairing())
+        .mount("/", routes![home, latest, favicon])
