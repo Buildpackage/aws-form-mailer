@@ -9,3 +9,4 @@ use serde_json::Value;
 pub struct StockInfo {
     open: f64,
     high: f64,
+    low: f64,
