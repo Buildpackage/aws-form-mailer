@@ -8,3 +8,4 @@ use serde_json::Value;
 #[derive(Debug, Serialize, Deserialize)]
 pub struct StockInfo {
     open: f64,
+    high: f64,
