@@ -12,3 +12,5 @@ pub struct StockInfo {
     low: f64,
     close: f64,
     volume: f64,
+    symbol: String,
+    exchange: String,
