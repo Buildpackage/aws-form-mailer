@@ -11,3 +11,4 @@ pub struct StockInfo {
     high: f64,
     low: f64,
     close: f64,
+    volume: f64,
