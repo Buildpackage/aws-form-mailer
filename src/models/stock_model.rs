@@ -14,3 +14,5 @@ pub struct StockInfo {
     volume: f64,
     symbol: String,
     exchange: String,
+    date: String,
+}
