@@ -16,3 +16,5 @@ pub struct StockInfo {
     exchange: String,
     date: String,
 }
+
+fn url(stock: String) -> String {
