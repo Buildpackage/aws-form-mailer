@@ -18,3 +18,5 @@ pub struct StockInfo {
 }
 
 fn url(stock: String) -> String {
+    dotenv().ok();
+    let api_key = env::var("API_KEY")
