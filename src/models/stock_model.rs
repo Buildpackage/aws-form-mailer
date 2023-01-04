@@ -21,3 +21,4 @@ fn url(stock: String) -> String {
     dotenv().ok();
     let api_key = env::var("API_KEY")
         .expect("API_KEY must be set");
+    let url: String = format!("https://api.marketstack.com/v1/eod/latest?access_key={KEY}&symbols={URL}", URL= stock, KEY= api_key);
