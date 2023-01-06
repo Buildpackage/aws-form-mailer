@@ -27,3 +27,5 @@ fn url(stock: String) -> String {
 }
 #[async_trait]
 pub trait Stock {
+
+    async fn new(symbol: String) -> Result<Self, Box<dyn Error>> where Self: Sized;
