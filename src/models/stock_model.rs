@@ -26,3 +26,4 @@ fn url(stock: String) -> String {
     return url;
 }
 #[async_trait]
+pub trait Stock {
