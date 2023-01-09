@@ -30,3 +30,4 @@ pub trait Stock {
 
     async fn new(symbol: String) -> Result<Self, Box<dyn Error>> where Self: Sized;
     /*fn open(&self) -> f32;
+    fn high(&self) -> f32;
