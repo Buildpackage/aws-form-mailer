@@ -32,3 +32,4 @@ pub trait Stock {
     /*fn open(&self) -> f32;
     fn high(&self) -> f32;
     fn close(&self) -> f32;
+    fn low(&self) -> f32;
