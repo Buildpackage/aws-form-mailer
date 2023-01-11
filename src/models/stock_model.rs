@@ -34,3 +34,5 @@ pub trait Stock {
     fn close(&self) -> f32;
     fn low(&self) -> f32;
     fn volume(&self) -> f32;*/
+
+}
