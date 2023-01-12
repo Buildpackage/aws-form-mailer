@@ -36,3 +36,5 @@ pub trait Stock {
     fn volume(&self) -> f32;*/
 
 }
+
+impl StockInfo {
