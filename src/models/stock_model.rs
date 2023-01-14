@@ -40,3 +40,4 @@ pub trait Stock {
 impl StockInfo {
 
     /* functions for returning to console stockInfo */
+}
