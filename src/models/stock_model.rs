@@ -43,3 +43,4 @@ impl StockInfo {
 }
 
 #[async_trait]
+impl Stock for StockInfo {
