@@ -44,3 +44,5 @@ impl StockInfo {
 
 #[async_trait]
 impl Stock for StockInfo {
+
+    async fn new(symbol: String) -> Result<Self, Box<dyn Error>> where Self: Sized {
