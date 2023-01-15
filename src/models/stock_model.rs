@@ -41,3 +41,5 @@ impl StockInfo {
 
     /* functions for returning to console stockInfo */
 }
+
+#[async_trait]
