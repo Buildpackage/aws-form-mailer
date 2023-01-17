@@ -46,3 +46,5 @@ impl StockInfo {
 impl Stock for StockInfo {
 
     async fn new(symbol: String) -> Result<Self, Box<dyn Error>> where Self: Sized {
+        let data = reqwest::get(url(symbol.to_string())).await.unwrap().text().await.unwrap();
+        let mut open: f64 = 0.0;
