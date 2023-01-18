@@ -49,3 +49,6 @@ impl Stock for StockInfo {
         let data = reqwest::get(url(symbol.to_string())).await.unwrap().text().await.unwrap();
         let mut open: f64 = 0.0;
         let mut high: f64 = 0.0;
+        let mut low: f64 = 0.0;
+        let mut close: f64 = 0.0;
+        let mut volume: f64 = 0.0;
