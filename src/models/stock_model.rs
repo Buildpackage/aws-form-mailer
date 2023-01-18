@@ -53,3 +53,4 @@ impl Stock for StockInfo {
         let mut close: f64 = 0.0;
         let mut volume: f64 = 0.0;
         let mut symbol: String = "Cannot parse error".to_string();
+        let mut exchange: String = "Cannot parse error".to_string();
