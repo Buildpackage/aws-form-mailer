@@ -55,3 +55,4 @@ impl Stock for StockInfo {
         let mut symbol: String = "Cannot parse error".to_string();
         let mut exchange: String = "Cannot parse error".to_string();
         let mut date: String = "Cannot parse error".to_string();
+
