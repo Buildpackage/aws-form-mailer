@@ -56,3 +56,6 @@ impl Stock for StockInfo {
         let mut exchange: String = "Cannot parse error".to_string();
         let mut date: String = "Cannot parse error".to_string();
 
+
+        let v: Value = serde_json::from_str(&data)?;
+        for (key, value) in v.as_object().unwrap() {
