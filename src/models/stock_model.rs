@@ -61,3 +61,5 @@ impl Stock for StockInfo {
         for (key, value) in v.as_object().unwrap() {
             if key == "data"{
                 for item in value.as_array().unwrap(){
+                    for (key, value) in item.as_object().unwrap() {
+                        match key.as_str() {
