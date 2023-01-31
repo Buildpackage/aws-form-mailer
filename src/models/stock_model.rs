@@ -59,3 +59,5 @@ impl Stock for StockInfo {
 
         let v: Value = serde_json::from_str(&data)?;
         for (key, value) in v.as_object().unwrap() {
+            if key == "data"{
+                for item in value.as_array().unwrap(){
