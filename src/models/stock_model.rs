@@ -65,3 +65,4 @@ impl Stock for StockInfo {
                         match key.as_str() {
                             "open" => open = value.as_f64().unwrap(),
                             "high" => high = value.as_f64().unwrap(),
+                            "low" => low = value.as_f64().unwrap(),
