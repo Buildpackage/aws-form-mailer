@@ -64,3 +64,4 @@ impl Stock for StockInfo {
                     for (key, value) in item.as_object().unwrap() {
                         match key.as_str() {
                             "open" => open = value.as_f64().unwrap(),
+                            "high" => high = value.as_f64().unwrap(),
