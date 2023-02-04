@@ -69,3 +69,5 @@ impl Stock for StockInfo {
                             "close" => close = value.as_f64().unwrap(),
                             "volume"=> volume = value.as_f64().unwrap(),
                             "symbol"=> symbol = value.to_string(),
+                            "exchange" => exchange = value.to_string(),
+                            "date" => date = value.to_string(),
