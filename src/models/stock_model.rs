@@ -67,3 +67,4 @@ impl Stock for StockInfo {
                             "high" => high = value.as_f64().unwrap(),
                             "low" => low = value.as_f64().unwrap(),
                             "close" => close = value.as_f64().unwrap(),
+                            "volume"=> volume = value.as_f64().unwrap(),
