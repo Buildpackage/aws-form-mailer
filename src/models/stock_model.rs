@@ -72,3 +72,5 @@ impl Stock for StockInfo {
                             "exchange" => exchange = value.to_string(),
                             "date" => date = value.to_string(),
                             _ => ()
+                        }
+                    }
