@@ -71,3 +71,4 @@ impl Stock for StockInfo {
                             "symbol"=> symbol = value.to_string(),
                             "exchange" => exchange = value.to_string(),
                             "date" => date = value.to_string(),
+                            _ => ()
