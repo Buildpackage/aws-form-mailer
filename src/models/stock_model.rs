@@ -75,3 +75,4 @@ impl Stock for StockInfo {
                         }
                     }
                 }
+            }
