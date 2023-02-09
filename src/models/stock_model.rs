@@ -74,3 +74,4 @@ impl Stock for StockInfo {
                             _ => ()
                         }
                     }
+                }
