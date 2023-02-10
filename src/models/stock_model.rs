@@ -77,3 +77,7 @@ impl Stock for StockInfo {
                 }
             }
         }
+
+        Ok(StockInfo {
+			open: open,
+            high: high,
