@@ -76,3 +76,4 @@ impl Stock for StockInfo {
                     }
                 }
             }
+        }
