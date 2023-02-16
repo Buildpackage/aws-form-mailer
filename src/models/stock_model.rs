@@ -85,3 +85,6 @@ impl Stock for StockInfo {
             close: close,
             volume: volume,
             symbol: symbol,
+            exchange: exchange,
+            date: date,
+		})
