@@ -84,3 +84,4 @@ impl Stock for StockInfo {
             low: low,
             close: close,
             volume: volume,
+            symbol: symbol,
