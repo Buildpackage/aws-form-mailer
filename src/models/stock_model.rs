@@ -88,3 +88,5 @@ impl Stock for StockInfo {
             exchange: exchange,
             date: date,
 		})
+
+    }
