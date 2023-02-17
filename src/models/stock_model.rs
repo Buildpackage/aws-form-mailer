@@ -90,3 +90,4 @@ impl Stock for StockInfo {
 		})
 
     }
+}
