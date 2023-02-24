@@ -17,3 +17,6 @@
 
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
+          <a class="navbar-brand">Stock API</a>
+          <form class="d-flex" method="post" action="/">
+            <input class="form-control me-2" type="search" id="name" name="name" placeholder="Search" aria-label="Search">
