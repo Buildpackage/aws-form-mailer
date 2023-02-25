@@ -24,3 +24,5 @@
           </form>
         </div>
     </nav>
+    {% block extracontent %}{% endblock extracontent %}
+</body>
