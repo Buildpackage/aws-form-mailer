@@ -1,3 +1,7 @@
 
 {% extends "base" %}
 {% block extracontent %}
+
+<div class="container">
+    <p>Hola</p>
+</div>
