@@ -7,3 +7,4 @@
         <caption>List of selected stocks</caption>
         <thead>
           <tr>
+            <th scope="col">Open</th>
