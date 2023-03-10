@@ -6,3 +6,4 @@
     <table class="table table-striped table-hover caption-top table-responsive">
         <caption>List of selected stocks</caption>
         <thead>
+          <tr>
