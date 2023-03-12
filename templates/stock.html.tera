@@ -9,3 +9,4 @@
           <tr>
             <th scope="col">Open</th>
             <th scope="col">High</th>
+            <th scope="col">Low</th>
