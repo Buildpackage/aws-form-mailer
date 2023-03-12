@@ -8,3 +8,4 @@
         <thead>
           <tr>
             <th scope="col">Open</th>
+            <th scope="col">High</th>
