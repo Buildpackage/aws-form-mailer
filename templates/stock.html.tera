@@ -11,3 +11,7 @@
             <th scope="col">High</th>
             <th scope="col">Low</th>
             <th scope="col">Close</th>
+            <th scope="col">Symbol</th>
+            <th scope="col">Exchange</th>
+            <th scope="col">Date</th>
+          </tr>
