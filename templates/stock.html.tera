@@ -15,3 +15,5 @@
             <th scope="col">Exchange</th>
             <th scope="col">Date</th>
           </tr>
+        </thead>
+        <tbody>
