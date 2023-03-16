@@ -17,3 +17,6 @@
           </tr>
         </thead>
         <tbody>
+        {% for c, k in stocks %}
+          <tr>
+            <td>{{k.open}}</td>
