@@ -20,3 +20,4 @@
         {% for c, k in stocks %}
           <tr>
             <td>{{k.open}}</td>
+            <td>{{k.high}}</td>
