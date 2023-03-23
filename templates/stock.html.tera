@@ -21,3 +21,4 @@
           <tr>
             <td>{{k.open}}</td>
             <td>{{k.high}}</td>
+            <td>{{k.low}}</td>
