@@ -25,3 +25,4 @@
             <td>{{k.close}}</td>
             <td>{{k.symbol}}</td>
             <td>{{k.exchange}}</td>
+            <td>{{k.date}}</td>
