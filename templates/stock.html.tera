@@ -28,3 +28,6 @@
             <td>{{k.date}}</td>
           </tr>
         {% endfor %}
+        </tbody>
+    </table>
+</div>
