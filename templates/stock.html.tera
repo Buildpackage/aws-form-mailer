@@ -26,3 +26,5 @@
             <td>{{k.symbol}}</td>
             <td>{{k.exchange}}</td>
             <td>{{k.date}}</td>
+          </tr>
+        {% endfor %}
